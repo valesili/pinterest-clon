@@ -1,0 +1,44 @@
+input {
+  border-radius: 30px !important;
+  padding-left: 30px !important;
+  background-color: #efefef !important;
+  border-color: #efefef !important;
+}
+input:hover {
+  background-color: #dbdbdb !important;
+  border-color: #dbdbdb !important;
+}
+
+button {
+  border-radius: 30px !important;
+  border: none !important;
+}
+
+form {
+  width: 70%;
+}
+
+.under {
+  position: absolute;
+  padding: 12px;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 1%!important;
+  margin-right: 1% !important;
+}
+
+.navbar{
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.button{
+  background-color: white;
+}
+
+.button:hover{
+  
+  background-color: #efefef ;
+}
