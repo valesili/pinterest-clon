@@ -23,7 +23,7 @@ input:hover {
 }
 
 button {
-  border-radius: 30px !important;
+  border-radius: 50rem !important;
   border: none !important;
 }
 
@@ -43,7 +43,7 @@ form {
   flex-wrap: nowrap;
   width: 100%;
   position: fixed;
-  z-index: 2;
+  z-index: 3;
 }
 
 .button {
@@ -64,12 +64,31 @@ form {
   object-fit: cover;
 }
 
-.card-img:hover {
-  filter: brightness(50%);
+.card-img:hover>img {
+  filter: brightness(70%);
+  z-index: 1;
+}
+
+.card>.card-img:hover>button {
+  display: block;
 }
 
 .card {
   border: none;
+}
+
+.card>.card-img>button{
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  color: white;
+  background-color: #e60023;
+  z-index: 2;
+  display: none;
+}
+
+.card>.card-img>button:hover{
+  background-color: #a3081a;
 }
 
 .card-body {
