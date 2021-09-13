@@ -31,16 +31,19 @@ form {
   width: 70%;
 }
 
-.under {
+.finder {
   position: absolute;
   padding: 12px;
 }
 
 .navbar {
   padding: 1rem;
+  background-color: white;
   justify-content: space-around;
   flex-wrap: nowrap;
   width: 100%;
+  position: fixed;
+  z-index: 2;
 }
 
 .button {
@@ -51,10 +54,18 @@ form {
   background-color: #efefef;
 }
 
+#content{
+  padding-top:5rem;
+}
+
 .card-img-top {
   border-radius: 1rem;
   height: 20rem;
   object-fit: cover;
+}
+
+.card-img:hover {
+  filter: brightness(50%);
 }
 
 .card {
